@@ -130,24 +130,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("GO","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"┏━┳┳┳━┳┳┓
-┃━┫┃┃┏┫━┫┏┓
-┃┏┫┃┃┗┫┃┃┃┃
-┗┛┗━┻━┻┻┛┃┃
-┏┳┳━┳┳┳┓┏┫┣┳┓
-┃┃┃┃┃┃┃┃┣┻┫┃┃
-┣┓┃┃┃┃┣┫┃┏┻┻┫
-┗━┻━┻━┻┛
-
-Tangkis cuk tangkis....  jgn melongo di liatin aja hahaha...    
-
-rata atau ga yang penting kami dh acakin groub lu .
-
-kalo rata elu yg sia sia hahahaha.... 
-kalo kagak rata tunggu kami balek lagi.... 
-
-
-[ADS] IN HERE HAHAHA........")
+                    sendMessage(msg.to,"3 2 1")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
