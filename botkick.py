@@ -126,11 +126,28 @@ def SEND_MESSAGE(op):
             if msg.contentType == 0:
                 #if "gname:" in msg.text:
 #--------------------------------------------------------------
-                if msg.text == "Mulai":
+                if msg.text == "GO":
                     print "ok"
-                    _name = msg.text.replace("Mulai","")
+                    _name = msg.text.replace("GO","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Halooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+                    sendMessage(msg.to,"┏━┳┳┳━┳┳┓
+┃━┫┃┃┏┫━┫┏┓
+┃┏┫┃┃┗┫┃┃┃┃
+┗┛┗━┻━┻┻┛┃┃
+┏┳┳━┳┳┳┓┏┫┣┳┓
+┃┃┃┃┃┃┃┃┣┻┫┃┃
+┣┓┃┃┃┃┣┫┃┏┻┻┫
+┗━┻━┻━┻┛
+
+Tangkis cuk tangkis....  jgn melongo di liatin aja hahaha...    
+
+rata atau ga yang penting kami dh acakin groub lu .
+
+kalo rata elu yg sia sia hahahaha.... 
+kalo kagak rata tunggu kami balek lagi.... 
+
+
+[ADS] IN HERE HAHAHA........")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
